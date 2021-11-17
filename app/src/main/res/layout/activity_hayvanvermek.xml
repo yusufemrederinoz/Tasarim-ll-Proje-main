@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hayvanvermek"
+    android:background="@color/ArkaPlan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tür Seçiniz"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/cbkedi"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="Kedi"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        />
+    <CheckBox
+        android:id="@+id/cbkopek"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="Kedi"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tür Seçiniz"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="15sp"
+        />
+    <CheckBox
+        android:id="@+id/chby1"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="0-12 Aylık"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        />
+    <CheckBox
+        android:id="@+id/chby2"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="1-2 yaşında"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        />
+    <CheckBox
+        android:id="@+id/chby3"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="2+ yaşında"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Fotoğraf Ekle"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="15sp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/add"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Açıklama"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/aciklama"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Açıklama giriniz"
+        android:textSize="15dp"
+        />
+    <Button
+        android:id="@+id/ilanver"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="İlan Ver"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="45dp"
+        />
+
+
+</LinearLayout>
