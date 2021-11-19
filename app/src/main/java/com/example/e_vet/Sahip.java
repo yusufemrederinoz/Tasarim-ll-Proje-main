@@ -22,7 +22,7 @@ public class Sahip extends AppCompatActivity {
         vermek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Sahip.this,Hayvanvermek.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                startActivity(new Intent(Sahip.this,hvermek.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
 
